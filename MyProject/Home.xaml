@@ -1,0 +1,334 @@
+﻿<Window x:Class="MyProject.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyProject"
+        mc:Ignorable="d"
+        Title="Home" Height="650" Width="800"
+     AllowsTransparency="False" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize"   WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown">
+    <Window.Resources>
+       <Style x:Key="generalStyle" TargetType="{x:Type FrameworkElement}">
+            <Setter Property="Control.Background" Value="Transparent"/>
+            <Setter Property="Control.BorderBrush" Value="Transparent"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Control.FlowDirection" Value="RightToLeft"/>
+        </Style>
+        <SolidColorBrush x:Key="trans" Color="Transparent"/>
+
+        <SolidColorBrush x:Key="SolidBorderBrush" Color="#888" />
+
+        <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#EEE" />
+
+        <SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA" />
+
+        <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
+
+        <Style TargetType="{x:Type TabItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TabItem}">
+                        <Grid>
+                            <Border 
+                                Name="Border"
+                                Margin="0,0,20,0"
+                                Padding="0,5"
+                                Background="{StaticResource trans}"
+                                BorderBrush="{StaticResource  SolidBorderBrush}" 
+                                BorderThickness="0,0,0,0" 
+                                CornerRadius="2,12,0,0" >
+                                <ContentPresenter x:Name="ContentSite"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    ContentSource="Header"
+                                    Margin="12,2,12,2"
+                                    RecognizesAccessKey="True"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Panel.ZIndex" Value="100" />
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource trans}" />
+                                <Setter TargetName="Border" Property="BorderThickness" Value="0,0,0,6" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource DisabledBackgroundBrush}" />
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DisabledBorderBrush}" />
+                                <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Panel.ZIndex" Value="100" />
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource trans}" />
+                                <Setter TargetName="Border" Property="BorderThickness" Value="0,0,0,6" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#204da5" Offset="0.0"/>
+                <GradientStop Color="#6cc4d5" Offset="1"/>
+            </LinearGradientBrush>
+        </DockPanel.Background>
+
+        <Grid x:Name="panelHeader" Background="Transparent" VerticalAlignment="Top" Height="40"  DockPanel.Dock="Top">
+            <Button HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Margin="5 5 0 0" Height="30" VerticalAlignment="Top"  Click="Exit_Click" >
+                    <Image Source="images/cancel_80px.png"/>
+
+                </Button>
+            <Button HorizontalAlignment="Left" Margin="45 5 0 0" Height="30" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Top"  Click="Maximize_Click" >
+                    <Image Source="images/maximize_window_80px.png"/>
+                </Button>
+
+            <Button HorizontalAlignment="Left" Margin="85 5 0 0" Height="30" BorderBrush="Transparent" Background="Transparent" VerticalAlignment="Top"  Click="Minimize_Click" >
+                    <Image Source="images/minimize_window_80px.png"/>
+
+                </Button>
+            <Button  HorizontalAlignment="Right" Margin=" 0 5 5 5" Click="Button_Click">
+                <StackPanel Orientation="Horizontal">
+                <Image Source="images/iconmonstr-log-out-10-240.png" Height="20" VerticalAlignment="Center"/>
+                <TextBlock FontSize="18" Margin="15 0 0 0" Text="تسجيل خروج" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+            <Grid Style="{StaticResource generalStyle}" DockPanel.Dock="Bottom" >
+
+            <TabControl Name="Tabs1" Style="{StaticResource generalStyle}"  FlowDirection="RightToLeft" TabStripPlacement="Top">
+
+
+                <TabItem Header="الفئات"  Name="category" IsSelected="True" >
+
+                     <!--code of window here-->
+
+
+                    <Viewbox >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100">
+                                </RowDefinition>
+                                <RowDefinition Height="*">
+                                </RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="*">
+                                </ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Margin="15" FlowDirection="RightToLeft" Orientation="Horizontal" Grid.Row="0" Grid.Column="1" >
+
+
+
+                                <TextBlock Text="أسم الفئه"
+                               Foreground="DarkGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Margin="0 20 0 0"
+                               Height="14" RenderTransformOrigin="0.521,0.612"
+                               />
+                                <TextBox
+                             Height="38"
+                             Margin=" 10 0 0 0"
+                             Width="200">
+                                    <TextBox.Background>
+                                        <ImageBrush 
+                                        Stretch="None"
+                                        AlignmentX="Left"/>
+                                    </TextBox.Background>
+                                </TextBox>
+                            </StackPanel>
+                            <StackPanel Margin="20 0 0 0" Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="أضافه"  />
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="تعديل"   />
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="حذف"  />
+                            </StackPanel>
+
+                            <DataGrid Margin="15"  Height="200" Width="340" 
+                      TextElement.FontFamily="helvetica"
+                      TextElement.FontSize="20"
+                      TextElement.Foreground="DarkBlue"
+                      Grid.Row="1" Grid.Column="1"
+                          />
+                        </Grid>
+                    </Viewbox>
+
+
+
+                </TabItem>
+
+
+                <TabItem Header="المنتجات">
+
+
+                        <!--code of window here-->
+
+                    <Viewbox >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100">
+                                </RowDefinition>
+                                <RowDefinition Height="*">
+                                </RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="*">
+                                </ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Margin="15" FlowDirection="RightToLeft" Orientation="Horizontal" Grid.Row="0" Grid.Column="1" >
+
+
+
+                                <TextBlock Text="أسم المنتج"
+                               Foreground="DarkGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Margin="0 20 0 0"
+                               Height="14" RenderTransformOrigin="0.521,0.612"
+                               />
+                                <TextBox 
+                             Height="38"
+                             Margin=" 10 0 0 0"
+                             Width="200">
+                                    <TextBox.Background>
+                                        <ImageBrush 
+                                        Stretch="None"
+                                        AlignmentX="Left"/>
+                                    </TextBox.Background>
+                                </TextBox>
+                            </StackPanel>
+                            <StackPanel Margin="20 0 0 0" Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="أضافه"  />
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="تعديل"   />
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="حذف"  />
+                            </StackPanel>
+
+                            <DataGrid Margin="15"  Height="200" Width="340" 
+                      TextElement.FontFamily="helvetica"
+                      TextElement.FontSize="20"
+                      TextElement.Foreground="DarkBlue"
+                      Grid.Row="1" Grid.Column="1"
+                          />
+                        </Grid>
+                    </Viewbox>
+
+
+                </TabItem>
+
+
+
+
+                <TabItem Header="العملاء">
+
+                        <!--code of window here-->
+                    <Viewbox Grid.Row="2">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100">
+                                </RowDefinition>
+                                <RowDefinition Height="*">
+                                </RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="*">
+                                </ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Margin="15" FlowDirection="RightToLeft" Orientation="Horizontal" Grid.Row="0" Grid.Column="1" >
+
+
+
+                                <TextBlock Text="أسم العميل"
+                               Foreground="DarkGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Margin="0 20 0 0"
+                               Height="14" RenderTransformOrigin="0.521,0.612"
+                               />
+                                <TextBox
+                             Height="38"
+                             Margin=" 10 0 0 0"
+                             Width="200">
+                                    <TextBox.Background>
+                                        <ImageBrush 
+                                        Stretch="None"
+                                        AlignmentX="Left"/>
+                                    </TextBox.Background>
+                                </TextBox>
+                            </StackPanel>
+                            <StackPanel Margin="20 0 0 0" Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="أضافه"  />
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="تعديل"   />
+
+                                <Button HorizontalAlignment="Left" Margin="0 20 0 0" Width="80" Height="40" Content="حذف"  />
+                            </StackPanel>
+
+                            <DataGrid Margin="15" Height="200" Width="340" 
+                      TextElement.FontFamily="helvetica"
+                      TextElement.FontSize="20"
+                      TextElement.Foreground="DarkBlue"
+                      Grid.Row="1" Grid.Column="1"
+                          />
+                        </Grid>
+                    </Viewbox>
+
+                </TabItem>
+
+
+
+                <TabItem Header="المشترين">
+                        
+                        <!--code of window here-->
+                        
+                    </TabItem>
+
+
+
+                <TabItem Header="الموردين">
+                        
+                        <!--code of window here-->
+                        
+                    </TabItem>
+
+
+
+
+                <TabItem Header="الفواتير">
+                        
+                        <!--code of window here-->
+                        
+                    </TabItem>
+
+
+
+                <TabItem Header="التقارير"  >
+                        
+                        <!--code of window here-->
+                        
+                    </TabItem>
+
+                    
+                    
+                    
+
+                </TabControl>
+            </Grid>
+    </DockPanel>
+</Window>
+

@@ -1,0 +1,112 @@
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.AssemblyReference.cache
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\Login.g.cs
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.cache
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.lref
+C:\Users\NoteBook\source\repos\MyProject\MyProject\bin\Debug\net6.0-windows\MyProject.exe
+C:\Users\NoteBook\source\repos\MyProject\MyProject\bin\Debug\net6.0-windows\MyProject.deps.json
+C:\Users\NoteBook\source\repos\MyProject\MyProject\bin\Debug\net6.0-windows\MyProject.runtimeconfig.json
+C:\Users\NoteBook\source\repos\MyProject\MyProject\bin\Debug\net6.0-windows\MyProject.dll
+C:\Users\NoteBook\source\repos\MyProject\MyProject\bin\Debug\net6.0-windows\MyProject.pdb
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\Login.baml
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.g.resources
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfoInputs.cache
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfo.cs
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.dll
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\refint\MyProject.dll
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.pdb
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\MyProject.genruntimeconfig.cache
+C:\Users\NoteBook\source\repos\MyProject\MyProject\obj\Debug\net6.0-windows\ref\MyProject.dll
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.AssemblyReference.cache
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\Login.g.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\SerialNumber.g.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\App.g.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.cache
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.lref
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.dll
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\refint\MyProject.dll
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.pdb
+F:\Important\wpf work\login\MyProject\bin\Debug\net6.0-windows\MyProject.exe
+F:\Important\wpf work\login\MyProject\bin\Debug\net6.0-windows\MyProject.deps.json
+F:\Important\wpf work\login\MyProject\bin\Debug\net6.0-windows\MyProject.runtimeconfig.json
+F:\Important\wpf work\login\MyProject\bin\Debug\net6.0-windows\MyProject.dll
+F:\Important\wpf work\login\MyProject\bin\Debug\net6.0-windows\MyProject.pdb
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\Login.baml
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\SerialNumber.baml
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.g.resources
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfoInputs.cache
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfo.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.CoreCompileInputs.cache
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\MyProject.genruntimeconfig.cache
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\ref\MyProject.dll
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\Register.g.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\Register.baml
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\ForgotPassword.g.cs
+F:\Important\wpf work\login\MyProject\obj\Debug\net6.0-windows\ForgotPassword.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\bin\Debug\net6.0-windows\MyProject.exe
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\bin\Debug\net6.0-windows\MyProject.deps.json
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\bin\Debug\net6.0-windows\MyProject.runtimeconfig.json
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\bin\Debug\net6.0-windows\MyProject.dll
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\bin\Debug\net6.0-windows\MyProject.pdb
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.AssemblyReference.cache
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Resources\ButtonStyle.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\ForgotPassword.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Home.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Login.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Register.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\SerialNumber.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.cache
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.lref
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\ForgotPassword.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Home.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Login.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\Register.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\SerialNumber.baml
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.g.resources
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfoInputs.cache
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfo.cs
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.dll
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\refint\MyProject.dll
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.pdb
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\MyProject.genruntimeconfig.cache
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\ref\MyProject.dll
+C:\Users\NoteBook\OneDrive\Desktop\login\MyProject\obj\Debug\net6.0-windows\App.baml
+F:\Important\wpf work\wpf project\MyProject\bin\Debug\net6.0-windows\MyProject.exe
+F:\Important\wpf work\wpf project\MyProject\bin\Debug\net6.0-windows\MyProject.deps.json
+F:\Important\wpf work\wpf project\MyProject\bin\Debug\net6.0-windows\MyProject.runtimeconfig.json
+F:\Important\wpf work\wpf project\MyProject\bin\Debug\net6.0-windows\MyProject.dll
+F:\Important\wpf work\wpf project\MyProject\bin\Debug\net6.0-windows\MyProject.pdb
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.AssemblyReference.cache
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Resources\ButtonStyle.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\ForgotPassword.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Home.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Login.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Register.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\SerialNumber.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\App.g.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.cache
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject_MarkupCompile.lref
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\App.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\ForgotPassword.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Home.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Login.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\Register.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\SerialNumber.baml
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.g.resources
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfoInputs.cache
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.AssemblyInfo.cs
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.csproj.CoreCompileInputs.cache
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.dll
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\refint\MyProject.dll
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.pdb
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\MyProject.genruntimeconfig.cache
+F:\Important\wpf work\wpf project\MyProject\obj\Debug\net6.0-windows\ref\MyProject.dll
